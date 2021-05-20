@@ -7,10 +7,19 @@
 ul.todo-list {
   margin-top: 10px;
 }
-.badge.badge-dark {
-  background: red;
+
+.badge{
   float: right;
   cursor: pointer;
+}
+
+.badge-del {
+  background: red;
+}
+
+.badge-update{
+  background: blue;
+  margin-left: 3px;
 }
 
 a:hover {

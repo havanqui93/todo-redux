@@ -5,6 +5,13 @@ export const addNewTodo = (todo) => {
     }
 }
 
+export const updateTodo = (todo) => {
+    return {
+        type: 'UPDATE_TODO',
+        payload: todo
+    }
+}
+
 export const removeTodo = id => {
     return {
         type : 'REMOVE_TODO',
